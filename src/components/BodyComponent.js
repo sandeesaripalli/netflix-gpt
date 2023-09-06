@@ -21,7 +21,7 @@ const BodyComponent = () => {
     ])
 
     useEffect(() => {
-      onAuthStateChanged(auth, (user) => {
+      const unsubscribe = onAuthStateChanged(auth, (user) => {
         if (user) {
           // User is signed in, see docs for a list of available properties
           // https://firebase.google.com/docs/reference/js/auth.user
@@ -35,7 +35,11 @@ const BodyComponent = () => {
          
         }
       });
-    },[])
+      return () => {
+        // Cleanup by unsubscribing the listener when the component unmounts.
+        unsubscribe();
+      }
+    },[dispatch])
   return (
     <div><RouterProvider router={appRouter} /></div>
   )
