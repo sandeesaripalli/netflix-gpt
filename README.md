@@ -1,3 +1,12 @@
+# NetFlix GPT
+- Create React App
+- Configure Tailwind
+- Routing added
+- Login Form
+- Sign up form
+- Form Validation
+- useRef Hook
+
 # Features
 Login/Signup
 - signin / sign up page
