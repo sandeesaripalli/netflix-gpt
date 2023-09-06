@@ -30,7 +30,7 @@ const Login = () => {
               // Signed in
               const user = userCredential.user;
               updateProfile(user, {
-                displayName: name.current.value, photoURL: "https://robohash.org/" + `${name.current.value}`
+                displayName: name.current.value, photoURL: `https://robohash.org/${name.current.value}`
               }).then(() => {
                 // Profile updated!
 
