@@ -14,6 +14,7 @@
 - Created Redux store with userSlice
 - Implemented signout
 - update profile api
+- Fetch movies fro
 
 # Features
 Login/Signup
