@@ -1,8 +1,9 @@
 import React from 'react'
+import HeaderComponent from './HeaderComponent'
 
 const Browse = () => {
   return (
-    <div>Browse</div>
+    <div><HeaderComponent /></div>
   )
 }
 

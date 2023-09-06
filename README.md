@@ -10,6 +10,10 @@
 - Adding github actions
 - Deploying app to productiion
 - Create signup user account
+- Sign In user api
+- Created Redux store with userSlice
+- Implemented signout
+- update profile api
 
 # Features
 Login/Signup
