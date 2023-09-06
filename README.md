@@ -9,7 +9,7 @@ Browse(only after authentication)
   - trailer in bg
   - Title and Desc
   - Movie Suggestions
-   - MovieLists * N
+    - MovieLists * N
 
 Netflix GPT
 - Search Bar
