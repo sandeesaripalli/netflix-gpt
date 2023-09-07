@@ -26,6 +26,10 @@
 - Updated the store with trailervideo
 - embeded the youtube and make it autoplay and mute
 - make trailer container more awesome with tailwindcss
+- Made secondary container
+- Got Popular movies from api
+- created usePopularMovies hook
+- 
 - 
 - 
 
