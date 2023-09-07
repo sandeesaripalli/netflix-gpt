@@ -14,7 +14,24 @@
 - Created Redux store with userSlice
 - Implemented signout
 - update profile api
-- Fetch movies fro
+- Fetch movies from Tmbd
+- add hardcoded options to constants
+- Register TMDB Api and create an app and get access token
+- Geta Data from tbdb nowplaying api
+- Custom hook for now playing movies
+- Created Store
+- updated store with data
+- Planning for Main Container and Secondary Container
+- fetch Data for movie Trailer
+- Updated the store with trailervideo
+- embeded the youtube and make it autoplay and mute
+- make trailer container more awesome with tailwindcss
+- Made secondary container
+- Got Popular movies from api
+- created usePopularMovies hook
+- 
+- 
+- 
 
 # Features
 Login/Signup
