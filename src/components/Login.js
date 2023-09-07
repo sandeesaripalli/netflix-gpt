@@ -3,12 +3,10 @@ import HeaderComponent from './HeaderComponent'
 import {checkValidData} from '../utils/validate'
 import { createUserWithEmailAndPassword, signInWithEmailAndPassword, updateProfile } from "firebase/auth";
 import {auth} from '../utils/firebase'
-import { useNavigate } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
 import { addUser } from '../utils/userSlice';
 const Login = () => {
   const dispatch = useDispatch()
-  const navigate = useNavigate()
     const [isSignInForm, setIsSignInForm] = useState(true);
     const [errorMessage, setErrorMessage] = useState(null)
     const email = useRef(null)
@@ -37,7 +35,7 @@ const Login = () => {
                 // if thhis below code is not done we will see empty phto url and display name during first login redirect
                 const {uid, email, displayName, photoURL} = auth.currentUser;
           dispatch(addUser({uid: uid, email: email, displayName: displayName, photoURL: photoURL}));
-                navigate("/browse")
+                
               }).catch((error) => {
                 // An error occurred
                 setErrorMessage(error.message)
@@ -54,8 +52,7 @@ const Login = () => {
             .then((userCredential) => {
               // Signed in
               const user = userCredential.user;
-              console.log(user)
-              navigate("/browse")
+              
             })
             .catch((error) => {
               const errorCode = error.code;
