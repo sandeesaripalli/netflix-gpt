@@ -1,7 +1,9 @@
+
 import { useEffect, useCallback } from "react";
 import { useDispatch } from "react-redux";
 import { addPopularMovies } from "../utils/moviesSlice";
 import { API_OPTIONS } from "../utils/constants";
+
 
 const usePopularMovies = () => {
   const dispatch = useDispatch();
@@ -18,5 +20,6 @@ const usePopularMovies = () => {
 
   return getPopularMovies;
 };
+
 
 export default usePopularMovies;

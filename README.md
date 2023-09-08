@@ -29,7 +29,9 @@
 - Made secondary container
 - Got Popular movies from api
 - created usePopularMovies hook
-- 
+- GPT Search page
+- GPT search Bar
+- Multi lingual feature
 - 
 - 
 
