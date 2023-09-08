@@ -32,6 +32,11 @@
 - GPT Search page
 - GPT search Bar
 - Multi lingual feature
+- Added open ai api
+- installed open ai node npm
+- built a suggestion engine(using gpt powers) and results are shown in ui 
+- fixed scrollbar issue
+- 
 - 
 - 
 

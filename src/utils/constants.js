@@ -19,3 +19,5 @@ export const USER_AVATAR =
     { identifier: "hindi", name: "Hindi" },
     { identifier: "spanish", name: "Spanish" },
   ];
+
+  export const OPENAI_KEY = "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"
