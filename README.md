@@ -36,7 +36,7 @@
 - installed open ai node npm
 - built a suggestion engine(using gpt powers) and results are shown in ui 
 - fixed scrollbar issue
-- 
+- added memoization  now app doesn't make multiple api calls
 - 
 - 
 
